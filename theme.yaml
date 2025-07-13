@@ -1,0 +1,11 @@
+name: "WinterPress"
+description: "This is a custom Winter starter theme with additional Winter plugins for a more WordPress-like experience."
+author: "The Website Guy"
+homepage: "https://thewebsiteguy.uk"
+code: "winterpress"
+form:
+    fields:
+        googleanalytics_id:
+            label: themes.winterpress::lang.options.googleanalytics_id
+            type: text
+            span: full

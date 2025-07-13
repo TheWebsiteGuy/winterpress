@@ -1,0 +1,12 @@
+==
+{{ vite(['assets/src/css/theme-winterpress.css'], 'theme-winterpress') }}
+
+<style>
+    :root {
+        --primary: {{ this.theme.color_primary }};
+        --secondary: {{ this.theme.color_secondary }};
+    }
+</style>
+
+{% styles %}
+{% placeholder head %}
